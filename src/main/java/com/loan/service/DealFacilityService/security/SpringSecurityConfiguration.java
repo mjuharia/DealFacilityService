@@ -23,6 +23,7 @@ public class SpringSecurityConfiguration {
 		// Disable CSRF for Post, Put, Delete requests
 		http.csrf().disable();
 		
+		
 		return http.build();
 	}
 }
